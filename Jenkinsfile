@@ -1,6 +1,6 @@
 pipeline {
   agent {
-    A_119_L
+    label "A_119_L"
   }
   stages {
     stage('hello') {
