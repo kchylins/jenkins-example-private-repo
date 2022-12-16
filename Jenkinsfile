@@ -1,5 +1,7 @@
 pipeline {
-  agent any
+  agent {
+    A_119_L
+  }
   stages {
     stage('hello') {
       steps {
