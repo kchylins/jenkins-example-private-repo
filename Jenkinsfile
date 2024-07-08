@@ -24,5 +24,11 @@ pipeline {
         sh 'sleep 5'
       }
     }
+    stage('error-input') {
+      steps {
+        sh 'sleep 10'
+        sh 'sleepxxx'
+      }
+    }
   }
 }
