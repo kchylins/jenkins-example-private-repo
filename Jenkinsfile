@@ -14,6 +14,7 @@ pipeline {
       steps {
         sh 'sleep 5'
         sh 'java -version'
+        sh wrwrv
         sh 'sleep 5'
       }
     }
