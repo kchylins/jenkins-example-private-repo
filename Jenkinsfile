@@ -8,7 +8,6 @@ pipeline {
         sh 'sleep 5'
         sh 'echo "Hello World"'
         sh 'sleep 5'
-        sh 'eeee'
       }
     }
     stage('java version') {
